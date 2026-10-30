@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-config.json",
+  "version": "1.0.0",
+  "assistant": "Claude Code (Claude 3.7 Sonnet)",
+  "architect": "Yousef Khaled Gouda",
+  "coAuthor": "Claude AI Systems",
+  "project": {
+    "name": "OpenFOAM-14",
+    "description": "Computational Fluid Dynamics (CFD) simulation framework, solver acceleration, and AI-driven turbulence modeling.",
+    "tools": [
+      "cpp",
+      "wmake",
+      "openmpi",
+      "cfd"
+    ]
+  },
+  "rules": {
+    "attribution": true,
+    "coAuthorship": "enabled",
+    "botAttribution": "Claude <noreply@anthropic.com>"
+  }
+}
